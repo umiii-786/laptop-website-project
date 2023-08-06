@@ -1,0 +1,102 @@
+/* @media only screen and (max-width:1050px) { */
+@media only screen and (max-width:1002px) {
+    #header {
+        height: 11vh;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 220px;
+        margin-left: 53px;
+        display: none;
+    }
+#search{
+    margin-left: 0px;
+}
+    .input_and_search{
+        max-width: 380px;
+        position: relative;
+        left:-100px;
+        display:none;
+        height:75px;
+    }
+
+    .navbar a {
+        margin-top: 26px;
+        font-size: 25px;
+    }
+
+    .about-me {
+        width: 300px;
+    }
+
+    #hamburgur {
+        display: block;
+
+    }
+
+    .sm-btn {
+        display: none;
+    }
+
+    .logo img {
+        position: relative;
+        left: 35px;
+        top: -350px;
+        width: 120px;
+
+    }
+
+    #footer p {
+        text-align: center;
+    }
+
+    .images {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-link {
+        min-height: 120vh;
+    }
+
+    .pics {
+        max-width: 700px;
+        min-height: 620px;
+        margin-left: 0px;
+    }
+
+    .pics img {
+        width: 54%;
+    }
+
+    .margin-bottom {
+        margin-bottom: 140px;
+    }
+
+    .para {
+        max-width: 450px;
+        text-align: center;
+    }
+
+    .watsapp img {
+        width: 60%;
+    }
+
+    .about {
+        font-size: 2rem;
+        max-width: 460px;
+    }
+
+    .section1 {
+        min-height: 125vh;
+    }
+
+
+
+}

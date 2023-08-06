@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Playball&family=Ubuntu:ital,wght@1,300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    transition: all 0.5s ease;
+    max-width: 100vw;
+    height: 11vh;
+    /* background: rgba(0, 0, 0, 0.251) url('change.jpg'); */
+    background: #7680c9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 5px black;
+    font-size: 18px;
+    padding-right: 40px;
+}
+
+.navbar a:hover {
+    color: rgb(252, 0, 0);
+}
+.logo_search{
+    display: flex;
+
+}
+.input_and_search{
+    max-width: 380px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img{
+    margin-left: 20px;
+    width: 70px;
+    border-radius: 10px;
+}
+
+#search {
+    width:100%;
+    font-size: 18px;
+    padding: 5px 20px;
+    /* margin-left: 20px; */
+    border-radius: 34px;
+    border: 1px solid black;
+}
+
+.sm-btn{
+    width: 30%;
+    padding: 3px 10px;
+    margin-left: 5px;
+    border-radius: 15px;
+    border: 1px solid white;
+    background: none;
+    color: white;
+    font-size: 16px;
+    text-shadow: 0 0 5px black;
+    cursor: pointer;
+}
+
+.sm-btn:hover {
+    color: rgb(252, 0, 0);
+}
+
+#line {
+    background-color: red;
+    width: 0px;
+    height: 2px;
+    display: none;
+    animation-name: umiii;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    position: sticky;
+    top: 0px;
+}
+
+@keyframes umiii {
+    0% {
+        width: 0px;
+    }
+
+    50% {
+        width: 100%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+#footer {
+    height: 8vh;
+    background: #7680c9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+    max-width: 100vw;
+}
+
+.mobiles {
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   min-height: 140vh;
+}
+
+
+.laptops {
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 140vh;
+}
+
+
+.other {
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 145vh;
+}
+/* 
+/* .thing img {
+    width: 35%;
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+
+.size img {
+    width: 350px;
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+
+.phone1 {
+    display: flex;
+}
+
+.phone2 {
+    display: flex;
+}
+
+.phone3 {
+    display: flex;
+}
+
+.laptop1 {
+    display: flex;
+}
+
+.laptop2 {
+    display: flex;
+}
+
+.laptop3 {
+    display: flex;
+}
+
+.watch {
+    display: flex;
+}
+
+.handfree {
+    display: flex;
+}
+
+.handphone {
+    display: flex;
+} */
+
+.size {
+    max-width: 350px;
+    margin-left: 5px;
+    border-radius: 8px;
+    height: 269px;
+}
+
+.about-thing{
+    /* margin-top: 50px; */
+    max-width: 350px;
+    margin-left: 5px;
+    border-radius: 8px;
+    height: 269px;
+    background-color: rgb(175, 167, 167);
+    padding: 33px 26px;
+}
+
+ .about-mobile {
+    background-color: rgb(175, 167, 167);
+}
+
+.margin-top {
+    margin-top: 10px;
+}
+
+.about-mobile {
+    padding: 33px 26px;
+}
+/* .auto{
+    margin-top: 30px;
+    /* margin-bottom: 50px; */
+    /* font-family: 'Balsamiq Sans', cursive;
+    font-size: 30px;
+} */ 
+/* .auto {
+    margin-top: 50px;
+    margin: auto;
+    width: 200px;
+} */
+
+/* .handfreeimg img {
+    height: 250px;
+} */
+
+/* .handphoneimg img {
+    width: 100%;
+}
+
+.handphoneimg {
+    width: 350px;
+} */
+/* 
+.handphonediv {
+    /* width:200px; */
+    /* height: 247px; */
+/* } */
+
+/* .handfreediv {
+    height: 250px;
+}  */
+
+.responsive{
+    /* display: flex; */
+    max-width:100%;
+    display:flex;
+    justify-content: center;
+
+}
+.responsive img{
+    width:40%;
+}
+.phone3{
+    /* max-width:995px; */
+    max-width:100%;
+    display:flex;
+    justify-content: center;
+    /* border:2px solid black; */
+}
+.phone3 img{
+    width:29%;
+}
+.laptop2{
+    max-width:100%;
+    display:flex;
+    justify-content: center;
+    /* max-width:995px; */
+}
+.laptop2 img{
+    width:32%;
+}
+.watch{
+    max-width:100%;
+    display:flex;
+    justify-content: center;
+}
+.watch img{
+    width:29%;
+}
+.handphone{
+    max-width:100%;
+    display:flex;
+    justify-content: center;
+    /* max-width:995px; */
+}
+/* .handfree{
+    max-width:995px;
+} */
+.handfree img
+{
+    /* height:200px; */
+    width:29%;    
+ } 
+.handphone img{
+    width:35%;
+}
+
+h3{
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 20px;
+}
+P{
+    font-family: 'Ubuntu', sans-serif; 
+    margin-top: 10px;
+}
+.burgur{
+    height:47px;
+    width:53px;
+    position: absolute;
+    right:20px;
+    top:20px;
+    color:black;
+    display:none;
+   
+}
+
+.line{
+    width:40px;
+    height:3px;
+    background-color: black;
+    border:1px solid black;
+    margin-top: 8px;
+}
+.cross{
+    font-size: 50px;
+    display: none;
+}
+.margin{
+    margin-bottom: 20px;
+}
+.mobiles h2{
+    margin-top: 20px;
+}

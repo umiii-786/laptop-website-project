@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index1.css">
+    <link rel="stylesheet" href="responsiveindex.css">
+    <style>
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <div class="logo_search">
+        <div class="logo">
+            <img src="images/cooperation.png" alt="logo">
+        </div>
+        <div class="input_and_search">
+            <input type="text" name="text" placeholder="search here" id="search">
+            <button class="sm-btn">search</button>
+        </div>
+    </div>
+        <nav class="navbar">
+            <a href="index.html" onclick="show()" target="_blank">HOME</a>
+            <a href="#aboutus" onclick="show()" target="_blank">ABOUT US</a>
+            <a href="contact.html" target="_blank" onclick="show()">CONTACT</a>
+            <a href="serives.html" onclick="show()" target="_blank">SERVICES</a>
+        </nav>
+
+       <div id="hamburgur" class="burgur" onclick="showheader()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div> 
+    <div class="cross burgur" onclick="hideh()">X</div>
+</header>
+    <main>
+        <section class="section1">
+        
+                <img src="images/pexels.jpg" alt="laptop" id="laptop">
+            
+            <!-- <h1 CLASS="H1 margin-top">HI</h1> -->
+            <H1 CLASS="H1">WELCOME TO UMIII-ELECTRONICS....!</H1>
+            <P class="intro margin-top">" Are you looking to buy the electronic items such as mobile, laptop, handfree,
+                handphone,
+                or many other items of home usage so you are at the right place
+                so order now and and got the qualilative items so dont be late and order now " </P>
+            <div class="buttons">
+                <button class="btn" id="btn1" onclick="change2()">&#60</button>
+                <button class="btn" id="btn2" onclick="change1()">&#62</button>
+            </div>
+        </section>
+        <section class="section2" id="services">
+            <h1 class="margin-top">SERVICES</h1>
+            <div class="computer">
+                <div class="laptop items">
+                    <p class="para" id="para1" onmouseenter="chat1()" onmouseleave="remove1()">
+                        <span>LAPTOPS:</span><br>Lorem ipsum dolor sit amet
+                        consectetur adipisicing
+                        elit. Alias recusandae
+                        atque et voluptate tempore
+                        ex temporibus iure nihil. Consequuntur, error omnis, molestiae odit vel inventore laudantium
+                        consectetur totam in sunt, ipsum asperiores aut sequi.
+                        <button id="chat1" class="add">ADD TO CHART</button>
+                    </p>
+                        <img src="images/OMEN_X_Laptop.jpg" alt="laptop" class="things margin-bottom"> 
+            </div>
+
+            <div class="handfree items">
+                <p class="para" id="para2" onmouseenter="chat2()" onmouseleave="remove2()">
+                    <span>HANDFREES:</span><br>Lorem ipsum dolor sit amet
+                    consectetur adipisicing
+                    elit. Alias recusandae
+                    atque et voluptate tempore
+                    ex temporibus iure nihil. Consequuntur, error omnis, molestiae odit vel inventore laudantium
+                    consectetur totam in sunt, ipsum asperiores aut sequi.
+                    <button id="chat2" class="add">ADD TO CHART</button>
+                </p>
+                    <img src="images/hanfree.png" alt="handfree" class="things margin-bottom"> 
+        </div>
+
+        <div class="handphone items">
+            <p class="para" id="para3" onmouseenter="chat3()" onmouseleave="remove3()">
+                <span>HEADPHONES:</span><br>Lorem ipsum dolor sit amet
+                consectetur adipisicing
+                elit. Alias recusandae
+                atque et voluptate tempore
+                ex temporibus iure nihil. Consequuntur, error omnis, molestiae odit vel inventore laudantium
+                consectetur totam in sunt, ipsum asperiores aut sequi.
+                <button id="chat3" class="add">ADD TO CHART</button>
+            </p>
+                <img src="images/tumbl.png" alt="handphone" class="things margin-bottom"> 
+    </div>
+
+    <div class="mobile items">
+        <p class="para" id="para4" onmouseenter="chat4()" onmouseleave="remove4()">
+            <span>MOBILES:</span>:</span><br>Lorem ipsum dolor sit amet
+            consectetur adipisicing
+            elit. Alias recusandae
+            atque et voluptate tempore
+            ex temporibus iure nihil. Consequuntur, error omnis, molestiae odit vel inventore laudantium
+            consectetur totam in sunt, ipsum asperiores aut sequi.
+            <button id="chat4" class="add">ADD TO CHART</button>
+        </p>
+            <img src="images/iphone.jpg" alt="PHONE" class="things margin-bottom"> 
+</div>
+
+<div class="watch items">
+    <p class="para" id="para5" onmouseenter="chat5()" onmouseleave="remove5()">
+        <span>WATCHES:</span>:</span><br>Lorem ipsum dolor sit amet
+        consectetur adipisicing
+        elit. Alias recusandae
+        atque et voluptate tempore
+        ex temporibus iure nihil. Consequuntur, error omnis, molestiae odit vel inventore laudantium
+        consectetur totam in sunt, ipsum asperiores aut sequi.
+        <button id="chat5" class="add">ADD TO CHART</button>
+    </p>
+        <img src="images/watch.jpg" alt="WATCH" class="things margin-bottom"> 
+</div>
+
+        </section>
+
+        <section class="section3" id="aboutus">
+            <h1 class="margin-top">ABOUT US</h1>
+            <div class="owner margin-top">
+                <img src="images/owner.jpg" alt="owner">
+            </div>
+            <h2 class="name margin-top">MUHAMMAD UMAIR JATT....! </h2>
+            <P class="about-me margin-top">" Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, praesentium
+                nostrum, ullam
+                quaerat optio fugiat assumenda dignissimos nam voluptate, quod expedita doloremque! "</P>
+        </section>
+    </main>
+    <footer id="footer">
+        <P>copyright &copy; www.umiiielectronic.com All right reserved</P>
+    </footer>
+</body>
+<script src="index1.js"></script>
+
+</html>

@@ -1,0 +1,116 @@
+@media only screen and (max-width:930px) {
+    #header {
+        height: 50vh;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    
+        .navbar {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 220px;
+        }
+
+    .navbar a {
+        margin-top: 20px;
+    }
+
+    .logo img {
+        position: relative;
+        right:22%;
+        top:-300px;
+        width:120px;
+    }
+    .logo {
+        margin-top: 20px;
+    }
+    .sm-btn{
+        display:none;
+    }
+    #search{
+        display: none;
+    }
+.responsive{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 700px; */
+    /* border: 2px solid black; */
+ }
+.size img{
+    width: 500px;
+    /* margin-bottom: 50px; */
+}
+.mobiles{
+    height: 240vh;
+}
+.laptops{
+    height: 320vh;
+}
+.other{
+    height: 320vh;
+}
+/* .size img{
+    width: 500px;
+    margin-bottom: 20px;
+} */
+.umiii{
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+.size{
+    max-width: 600px;
+}
+.about-thing{
+    margin-top: 100px;
+    max-width: 600px;
+}
+.handfreeimg img{
+height:330px;
+}
+
+.handphoneimg img{
+ width:350px;   
+}
+.thing img{
+    width: 500px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.phone1 {
+    height: 600px;
+}
+
+.phone2 {
+    /* display: flex; */
+    height: 600px;
+}
+
+.phone3 {
+    /* display: flex; */
+    height: 600px;
+}
+.laptop1{
+    height: 600px;
+    /* border:2px solid black; */
+    /* margin-bottom: 10px; */
+}
+/* .laptop1 img{
+    margin-bottom: 10px;  
+} */
+.laptop2{
+    height: 600px;
+}
+.laptop3{
+    height: 600px;
+}
+.handphonediv{
+    margin-top:20px;
+}
+
+
+}

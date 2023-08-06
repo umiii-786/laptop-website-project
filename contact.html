@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact1.css">
+    <link rel="stylesheet" href="responsivecontact.css">
+    <style>
+    </style>
+</head>
+
+<body>
+    
+    <header id="header">
+        <div class="logo_search">
+        <div class="logo">
+            <img src="images/cooperation.png" alt="logo">
+        </div>
+        <div class="input_and_search">
+            <input type="text" name="text" placeholder="search here" id="search">
+            <button class="sm-btn">search</button>
+        </div>
+    </div>
+        <nav class="navbar">
+            <a href="index.html" onclick="show()" target="_blank">HOME</a>
+            <a href="#aboutus" onclick="show()" target="_blank">ABOUT US</a>
+            <a href="#" target="_blank" onclick="show()">CONTACT</a>
+            <a href="serives.html" onclick="show()" target="_blank">SERVICES</a>
+        </nav>
+
+       <div id="hamburgur" class="burgur" onclick="showheader()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div> 
+    <div class="cross burgur" onclick="hideh()">X</div>
+</header>
+
+    <main>
+        <section class="contact-link">
+            <h1 id="heading">CONTACT US</h1>
+            <div class="images">
+                <div class="facebook pics margin-bottom">
+                    <!-- <div class="link"> -->
+                        <img src="images/facebook logo.png" alt="facebook">
+                    <!-- </div> -->
+                    <h3 class="about margin-top">Follow Me On Facebook</h3>
+                    <P class="para">M: Umair Jatt </P>
+                    <button class="btn margin-less-top">COPY FB ID</button>
+                </div>
+                <div class="instagram pics margin-bottom">
+                    <!-- <div class="link"> -->
+                       <img src="images/Instagram-Icon.png" alt="instagram">
+                    <!-- </div> -->
+                    <h3 class="about margin-top">Follow Me On Instagram</h3>
+                    <P class="para">umiii_3355</P>
+                    <button class="btn margin-less-top">COPY INSTA ID</button>
+                </div>
+                <div class="watsapp pics margin-bottom">
+                    <img src="images/watsapp.png" alt="gmail">
+                    <h3 class="about margin-less-top">Contact Me On Watsapp</h3>
+                    <P class="para">+92-3133300758</P>
+                    <button class="btn margin-less-top">COPY NUM</button>
+                </div>
+            </div>
+        </section>
+        <section class="section1">
+            <h1 class="heading margin-top">BOOK NOW</h1>
+            <div class="contact">
+                <P class="margin-top">ENTER YOUR NAME</P>
+                <input type="text" NAME="name" class="input">
+                <P class="margin-top">ENTER YOUR EMAIL</P>
+                <input type="email" NAME="email" class="input">
+                <P class="margin-top">ENTER YOUR PHONE NUMBER</P>
+                <input type="numeric" NAME="number" class="input">
+                <P class="margin-top">ENTER YOUR ADDRESS</P>
+                <input type="text" NAME="address" class="input">
+                <p class="margin-top">CHOOSE YOUR COUNTRY NAME</p>
+                <select id="select">
+                    <option value="pakistan">pakistan</option>
+                    <option value="india">india</option>
+                    <option value="afghanistan">afghanistan</option>
+                    <option value="srilank">srilanka</option>
+                    <option value="saudi">saudi arabia</option>
+                </select>
+
+                <P class="margin-top">ENTER YOUR FEEDBACK</P>
+                <textarea name="feedback" id="feedback" cols="30" rows="4"></textarea><br>
+                <error id="error"></error>
+                <!-- <input type="SUBMIT" class="margin-top ans" onsubmit="show()">
+                <input type="RESET" class="margin-top ans"> -->
+                <button class="margin-top ans" onclick="show()">BOOK NOW</button>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <P>copyright &copy; www.umiiielectronic.com Gmail: umiii215020@gmail.com All right reserved</P>
+    </footer>
+
+</body>
+<script src="contact.js"></script>
+
+<script>
+
+    window.addEventListener('keyup', event => {
+        var iscap = event.getModifierState('Capslock');
+        if (iscap) {
+            document.getElementById('error').innerText = "WARNING! capslock is on";
+        } else {
+            document.getElementById('error').innerText = "";
+        }
+    })
+    function show() {
+        alert('your ordered has been booked');
+    }
+</script>
+
+</html>
